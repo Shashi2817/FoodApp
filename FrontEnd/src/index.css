@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* background-image: url('./logo.png'); */
+  /* background-color: red; */
+}
+
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+  /* background-color: red; */
+  background-image: linear-gradient(
+    128deg,
+    rgb(222, 222, 222),
+    rgb(249, 249, 249)
+  );
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
+.app{
+  width: 100%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}

@@ -1,0 +1,142 @@
+
+.cart{
+    margin-top: 0px;
+    /* background-color: red; */
+    padding: 130px;
+    
+}
+.container{
+   
+   width: 100%;
+  position: relative;
+
+}
+/* .container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('cartHeader.jpg') ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   opacity: 0.1;
+   border-radius: 12px;
+   z-index: -1;
+} */
+
+.container .img img{
+    height: 250px;
+    width: 100%;
+    /* background-image: url('./cartHeader3.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+.container .img-text{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #999;
+    font-size: 20px;
+}
+
+.cart-items-title{
+    display: grid; 
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw,12px);
+}
+.cart-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+
+.cart-items-item img{
+    width: 70px;
+}
+
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.cross{
+    cursor: pointer;
+    color: red;
+    font-weight: 900;
+}
+
+.cart-buttom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+
+}
+
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+
+.cart-total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw,180px);
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cart-promocode{
+    flex:1;
+
+}
+.cart-promocode p{
+    color: #555;
+}
+
+.cart-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+.cart-promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+      
+}
+
+.cart-promocode-input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 9px 4px 4px 12px;
+}
+
+.container .app{
+    background-color: #cfcfcf;
+    padding: 21px;
+    width: 100%;
+    height: 420px;
+}
